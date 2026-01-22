@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pen Collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BACKGROUND PARTICLES -->
+<canvas id="bgParticles"></canvas>
+
+<!-- UI LAYER -->
+<div id="ui-layer">
+    <div>
+        <div class="score-box">
+            Score: <span id="scoreVal">0</span>
+        </div>
+    </div>
+
+    <div id="status-text">SLOW MOTION!</div>
+
+    <div>
+        <div class="lives-box">
+            Lives: <span id="livesVal">3</span>
+        </div>
+    </div>
+
+    <!-- IN-GAME DEVELOPER CREDIT -->
+    <div class="dev-credit">
+        Developed by
+        <a href="https://wa.me/917002443108" target="_blank" rel="noopener">
+            Jahangir Hussain
+        </a>
+    </div>
+</div>
+
+<!-- START SCREEN -->
+<div id="start-screen">
+    <h1>Pen Collector</h1>
+
+    <!-- FRONT PAGE DEVELOPER CREDIT (FIXED) -->
+    <div class="dev-credit start-credit">
+        Developed by
+        <a href="https://wa.me/917002443108" target="_blank" rel="noopener">
+            Jahangir Hussain
+        </a>
+    </div>
+
+    <div class="tutorial-grid">
+        <div class="tut-item">
+            <div class="tut-pen tp-blue"></div>
+            Blue (+1 Score)
+        </div>
+        <div class="tut-item">
+            <div class="tut-pen tp-green"></div>
+            Green (Slow Time)
+        </div>
+        <div class="tut-item">
+            <div class="tut-pen tp-silver"></div>
+            Silver (+5 Score)
+        </div>
+        <div class="tut-item">
+            <div class="tut-pen tp-gold"></div>
+            Gold (+1 Life)
+        </div>
+        <div class="tut-item full">
+            <div class="tut-pen tp-red"></div>
+            Avoid Red (-1 Life)
+        </div>
+    </div>
+
+    <p>
+        Collect pens in the holder.<br>
+        
+    </p>
+
+    <button onclick="startGame()">Start Game</button>
+</div>
+
+<!-- GAME OVER SCREEN -->
+<div id="game-over-screen" class="hidden">
+    <h1>Game Over!</h1>
+    <p>
+        Final Score:
+        <span id="finalScore">0</span>
+    </p>
+    <button onclick="resetGame()">Play Again</button>
+</div>
+
+<!-- GAME CANVAS -->
+<canvas id="gameCanvas"></canvas>
+
+<script src="game.js"></script>
+</body>
+</html>
