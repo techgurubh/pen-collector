@@ -379,3 +379,6 @@ function gameLoop() {
 
     requestAnimationFrame(gameLoop);
 }
+function resetGame() {
+    startGame();
+}
