@@ -105,15 +105,18 @@ body {
     text-decoration: none;
 }
 
-/* =========================
-   START SCREEN CREDIT
-========================= */
+/* Start screen developer credit – RIGHT SIDE */
 .start-credit {
-    position: static;
-    margin: 10px 0 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;          /* 👈 move to right */
+    left: auto;
+    transform: none;
+
     font-size: 14px;
     background: rgba(0,0,0,0.6);
-    padding: 6px 18px;
+    color: #ffffff;
+    padding: 6px 16px;
     border-radius: 20px;
     pointer-events: auto;
 }
