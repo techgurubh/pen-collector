@@ -39,8 +39,7 @@ while avoiding dangerous ones.
 https://techgurubh/github.io/pen-collector/
 
 ## 👨‍💻 Developer
-Developed by **Jahangir Hussain**  
-WhatsApp: https://wa.me/917002443108
+Developed by [**Jahangir Hussain**](https://wa.me/917002443108)
 
 ## 📄 License
 This project is free to use for learning, personal projects, and demos.
