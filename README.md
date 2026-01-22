@@ -36,7 +36,7 @@ while avoiding dangerous ones.
 - No sound files required
 - Audio activates after user interaction (Start Game)
 
-https://techgurubh/github.io/pen-collector/
+https://techgurubh.github.io/pen-collector/
 
 ## 👨‍💻 Developer
 Developed by [**Jahangir Hussain**](https://wa.me/917002443108)
